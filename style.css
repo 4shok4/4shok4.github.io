@@ -1,0 +1,523 @@
+
+h1 {
+	margin-top: 5px;
+	text-align: center;
+	color: black;
+	font-size: 36px;
+	font-family: 'Roboto Condensed';
+}
+.test:hover {
+	animation: Test 2s infinite;
+}
+@keyframes Test {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.test1 {
+	animation: Test 2s infinite;
+}
+@keyframes Test {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+h2 {
+	font-size: 20px;
+	text-align: center;
+	color: red;
+	font-family: 'Roboto Condensed';
+}
+.pub1 {
+	margin-bottom: 30px;
+	margin-top: 25px;
+	padding-top: 5px;
+	margin-left: 500px;
+	margin-right: 500px;
+	border: 2px solid yellow;
+}
+h4 {
+	padding-top: 50px;
+	margin: 0;
+	text-align: center;
+	color: red;
+	font-size: 60px;
+	font-family: 'Roboto Condensed';
+}
+p {
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Amaranth';
+	color: black;
+}
+h3 {
+	padding-top: 1px;
+	margin-top: 50px;
+	text-align: center;
+	color: red;
+	font-size: 60px;
+	font-family: 'Roboto Condensed';
+	border: 2px solid yellow;
+	margin-left: 270px;
+	margin-right: 270px;
+}
+h5 {
+	margin-top: -50px;
+	padding-top: 30px;
+	text-align: center;
+	color: red;
+	font-size: 35px;
+	font-family: 'Roboto Condensed';
+	text-decoration: underline;
+	text-underline-position: under;
+}
+h6 {
+	margin-right: 120px;
+	margin-top: 20px;
+	text-align: center;
+	color: red;
+	font-size: 35px;
+	font-family: 'Roboto Condensed';
+}
+.moncercle1 h2 {
+	text-decoration: none;
+}
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+header {
+	height: 105vh;
+	width: 100%;
+	background-image: url("image/terre-plate-1.jpg");
+	background-size: cover;
+	padding: 0;
+}
+.header0 {
+	height: 170vh;
+	width: 100%;
+	background-image: url("image/15716028(B).jpg");
+	background-size: cover;
+}
+.header1 {
+	height: 135vh;
+	width: 100%;
+	background-image: url("image/15716028(A).jpg");
+	background-size: cover;
+}
+.header2 {
+	height: 120vh;
+	width: 100%;
+	background-image: url("image/15716028(C).jpg");
+	background-size: cover;
+}
+.header3 {
+	height: 100vh;
+	width: 100%;
+	background-image: url("image/15716028.jpg");
+	background-size: cover;
+}
+.header4 {
+	height: 100vh;
+	width: 100%;
+	background-image: url("image/15716028.jpg");
+	background-size: cover;
+}
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #F0E68C;
+	z-index: 99;
+}
+.lien1
+{
+	margin-left: 0px;
+}
+object {
+	padding-bottom: 30px;
+	
+	padding-top: 45px;
+}
+.header5 {
+	height: 100vh;
+	width: 100%;
+	background-image: url("image/planete.jpg");
+	background-size: cover;
+}
+.inscription {
+	padding-left: 75px;
+	padding-top: 100px;
+	text-align: left;
+	color: white;
+	font-size: 65px;
+	font-family: 'Roboto Condensed';
+}
+#Les_rayons_crépusculaire
+{
+	margin-left: 200px;
+}
+.zoom {
+	height: 400px;
+	margin: auto;
+}
+.zoom p {
+	text-align: center;
+}
+.zoom img {
+	width: 300px;
+	height: 225px;
+}
+.zoom img:hover {
+	width: 429px;
+	height: 375px;
+}
+#moncercle {
+	background: #bfd70e;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	border: 2px solid #679403;
+	float: right;
+	margin-right: 80px;
+}
+#moncercle3 {
+	background: #bfd70e;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	border: 2px solid #679403;
+	float: right;
+	margin-right: 80px;
+}
+.titres {
+	padding-top: 50px;
+}
+#Bloc1 {
+	float: left;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Bloc2 {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#Bloc3 {
+	float: right;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#moncercle1 {
+	background: #bfd70e;
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	border: 2px solid #679403;
+	margin-left: 80px;
+	margin-top: -90px;
+}
+.fleche {
+	position: relative;
+	background: #FF0000;
+	height: 150px;
+	width: 20px;
+	margin-top: -88px;
+	margin-left: 380px;
+}
+.fleche:after {
+	left: -200%;
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 50px;
+	border-color: #ff0015 transparent;
+}
+.fleche2 {
+	position: relative;
+	background: #FF0000;
+	height: 150px;
+	width: 20px;
+	margin-top: -210px;
+	margin-left: -250px;
+}
+.fleche2:after {
+	left: -200%;
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 50px;
+	border-color: #ff0015 transparent;
+}
+.fleche3 {
+	position: relative;
+	background: #FF0000;
+	height: 150px;
+	width: 20px;
+	margin-left: 380px;
+	margin-top: -55px;
+}
+.fleche3:after {
+	left: -200%;
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 50px;
+	border-color: #ff0015 transparent;
+}
+.fleche4 {
+	position: relative;
+	background: #FF0000;
+	height: 150px;
+	width: 20px;
+	margin-top: -200px;
+	margin-left: -250px;
+}
+.fleche4:after {
+	left: -200%;
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 50px 0 50px;
+	border-color: #ff0015 transparent;
+}
+@media screen and (max-width: 500px) {
+	nav {
+		height: 60px;
+	}
+	h3 {
+		width: 300px;
+		margin-left: 70px;
+		margin-right: 40px;
+		margin-top: 60px;
+		padding: 15px;
+		size: 15px;
+		font-size: 25px;
+	}
+	h5 {
+		width: 300px;
+		margin-left: 70px;
+		margin-right: 40px;
+		padding: 15px;
+		size: 15px;
+		font-size: 15px;
+		margin-top: 50px;
+	}
+	#moncercle1 {
+		width: 60px;
+		height: 60px;
+		margin-top: 40px;
+		margin-left: 15px;
+	}
+	h2 {
+		font-size: 9px;
+		size: 15px;
+		text-align: center;
+	}
+	h6 {
+		font-size: 15px;
+		margin-left: 150px;
+	}
+	h1 {
+		font-size: 25px;
+	}
+	h4 {
+		font-size: 30px;
+	}
+	.pub1 {
+		margin-top: 40px;
+		margin-left: 105px;
+		margin-right: 100px;
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+	.pub1 h2 {
+		font-size: 15px;
+	}
+	.fleche {
+		position: relative;
+		background: #FF0000;
+		height: 50px;
+		width: 20px;
+		margin-top: 12px;
+		margin-left: 380px;
+	}
+	.fleche:after {
+		left: -75%;
+		top: 100%;
+		border: solid transparent;
+		content: " ";
+		position: absolute;
+		pointer-events: none;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 25px 0 25px;
+		border-color: #ff0015 transparent;
+	}
+	.fleche2 {
+		position: relative;
+		background: #FF0000;
+		height: 50px;
+		width: 20px;
+		margin-top: -40px;
+		margin-left: -250px;
+	}
+	.fleche2:after {
+		left: -75%;
+		top: 100%;
+		border: solid transparent;
+		content: " ";
+		position: absolute;
+		pointer-events: none;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 25px 0 25px;
+		border-color: #ff0015 transparent;
+	}
+	header {
+		height: 96vh;
+	}
+	.header0 {
+		height: 180vh;
+	}
+	p {
+		font-size: 15px;
+	}
+	.fleche3 {
+		position: relative;
+		background: #FF0000;
+		height: 50px;
+		width: 20px;
+		margin-top: 98px;
+		margin-left: 430px;
+	}
+	.fleche3:after {
+		left: -75%;
+		top: 100%;
+		border: solid transparent;
+		content: " ";
+		position: absolute;
+		pointer-events: none;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 25px 0 25px;
+		border-color: #ff0015 transparent;
+	}
+	.fleche4 {
+		position: relative;
+		background: #FF0000;
+		height: 50px;
+		width: 20px;
+		margin-top: -75px;
+		margin-left: -300px;
+	}
+	.fleche4:after {
+		left: -75%;
+		top: 100%;
+		border: solid transparent;
+		content: " ";
+		position: absolute;
+		pointer-events: none;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 25px 0 25px;
+		border-color: #ff0015 transparent;
+	}
+	#moncercle {
+		width: 60px;
+		height: 60px;
+		margin-top: 0px;
+		margin-left: 15px;
+	}
+	.header1 {
+		height: 130vh;
+	}
+	.zoom {
+		height: 400px;
+		margin: auto;
+	}
+	.zoom p {
+		text-align: center;
+	}
+	.zoom img {
+		width: 380px;
+		height: 325px;
+	}
+	.zoom img:hover {
+		width: 380px;
+		height: 325px;
+	}
+	#moncercle h2 {
+		color: red;
+	}
+	object {
+		padding-bottom: 30px;
+		margin-left: 5px;
+		padding-top: 45px;
+		width: 400px;
+		height: 300px;
+	}
+	.header2 {
+		height: 120vh;
+	}
+	.header3 {
+		height: 80vh;
+	}
+	.header5 {
+		height: 100vh;
+	}
+	.inscription {
+		font-size: 30px;
+		padding-right: 30px;
+	}
+	#moncercle3 h2 {
+		font-size: 20px;
+	}
+	#moncercle3 {
+		margin-right: 150px;
+		margin-top: 70px;
+	}
+	#Les_rayons_crépusculaire
+{
+	margin-left: 0px;
+}
